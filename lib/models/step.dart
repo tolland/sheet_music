@@ -281,6 +281,7 @@ Step updateStep(String scale, String pitch) {
         return Step.TI;
       }
       break;
+    default:
   }
   return Step.DO;
 }

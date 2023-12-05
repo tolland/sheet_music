@@ -35,6 +35,7 @@ String getScaleAsset(String scale, {bool? trebleClef}) {
         return gbmajor_treble_asset;
       case PossibleScales.cbMajor:
         return cbmajor_treble_asset;
+      default:
     }
   }
   switch (_scale) {
@@ -68,6 +69,7 @@ String getScaleAsset(String scale, {bool? trebleClef}) {
       return gbmajor_bass_asset;
     case PossibleScales.cbMajor:
       return cbmajor_bass_asset;
+    default:
   }
   // Default: C Major
   return cmajor_bass_asset;

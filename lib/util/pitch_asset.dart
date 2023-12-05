@@ -202,6 +202,7 @@ String getPitchName({String? scale, required String pitch}) {
       if (pitch.contains("C")) return pitch.replaceAll("C", "C♭");
       if (pitch.contains("F")) return pitch.replaceAll("F", "F♭");
       break;
+    default:
   }
   return pitch;
 }
